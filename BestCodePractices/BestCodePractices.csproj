@@ -181,6 +181,8 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="CustomExceptions\MyException.cs" />
+    <Compile Include="CustomValidationAttributes\DomainNameAttribute.cs" />
+    <Compile Include="CustomValidationAttributes\EmailAddressAttribute.cs" />
     <Compile Include="EqualityComparers\ActivityComparer.cs" />
     <Compile Include="ExtensionMethods\DateTimeExtensions.cs" />
     <Compile Include="ExtensionMethods\ListExtensions.cs" />
